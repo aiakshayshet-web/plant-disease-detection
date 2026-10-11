@@ -1,0 +1,45 @@
+# Data (large image datasets - do not commit)
+data/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+
+# Models
+models/*.h5
+models/*.pkl
+*.h5
+*.pkl
+*.keras
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+.env
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+runs/
